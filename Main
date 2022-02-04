@@ -1,0 +1,27 @@
+public class Main 
+{
+    public static void main(String[] args) 
+    {
+        for(int counter=1; counter<=100; counter ++)
+        {
+            if(counter%3==0||counter%5==0)
+            {
+            if (counter%3==0)
+            {
+                System.out.print("BUZZ");
+            }
+            if (counter%5==0)
+            {
+                System.out.print("FIZZ");
+            }
+            }
+            else
+            {
+                System.out.print(counter);
+                    
+            }
+         System.out.println("");
+        }
+    }
+    
+}
